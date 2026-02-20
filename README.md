@@ -30,7 +30,7 @@ O objetivo do projeto é:
 ## 🏗️ Estrutura do Projeto
 
 ```
-cybersecurity-monitor/
+blue-team-process-monitor/
 │
 ├── src/
 │   ├── monitor.py
