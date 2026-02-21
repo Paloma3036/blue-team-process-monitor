@@ -1,6 +1,6 @@
 # 🛡️ Cybersecurity Process Monitor
 
-Projeto desenvolvido com foco em monitoramento de processos suspeitos em ambiente local, simulando um cenário básico de detecção utilizado em operações de segurança (SOC / Blue Team).
+Ferramenta leve de monitoramento de processos baseada em regras desenvolvida para simular a detecção básica de ameaças do Blue Team em um ambiente local.
 
 ---
 
@@ -48,6 +48,14 @@ blue-team-process-monitor/
 ├── README.md
 └── .gitignore
 ```
+
+## 🧩 Arquitetura
+
+O projeto segue uma separação simples de responsabilidades:
+
+- `monitor.py` → Responsável pelo monitoramento e aplicação das regras de detecção.
+- `keylogger_process.py` → Simulação controlada de ameaça.
+- `analyze_logs.py` → Processamento e análise estatística dos logs gerados.
 
 ---
 
@@ -115,14 +123,12 @@ Será exibido um resumo estatístico dos eventos registrados.
 
 ---
 
-## 🎯 Aprendizados
+## 🎯 Aprendizados:
 
-Durante o desenvolvimento foram trabalhados:
-
-- Construção de regras de detecção
-- Ajuste fino para evitar falsos positivos
-- Simulação prática de cenários de ameaça
-- Organização profissional de projeto
+- Implementação de lógica de detecção baseada em regras
+- Estruturação de logs para análise de eventos de segurança
+- Validação de mecanismos de detecção orientada por simulação
+- Redução de falsos positivos através do refinamento de regras
 
 ---
 
