@@ -1,1 +1,2 @@
-psutil==7.2.2
+# Atualizado para um versão estável.
+psutil==7.0.0

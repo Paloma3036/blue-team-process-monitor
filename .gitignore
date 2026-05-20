@@ -1,4 +1,6 @@
 venv/
 __pycache__/
-logs/security_log.json
+logs/
 *.pyc
+*.txt
+# Atualizado em 2026-05-19.

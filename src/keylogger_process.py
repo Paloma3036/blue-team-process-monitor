@@ -1,6 +1,13 @@
 import time
+import sys
 
-print("Processo fake de keylogger iniciado...")
+print("🎯 [FAKE MALWARE] Processo simulador de Keylogger iniciado...")
+print("Pressione CTRL+C para encerrar este processo simulado.")
 
-while True:
-    time.sleep(1)
+try:
+    while True:
+        time.sleep(1)
+except KeyboardInterrupt:
+    print("\nSimulação encerrada.")
+    sys.exit(0)
+# Atualizado em 2026-05-19.
