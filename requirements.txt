@@ -1,2 +1,3 @@
 # Atualizado para um versão estável.
 psutil==7.0.0
+streamlit
